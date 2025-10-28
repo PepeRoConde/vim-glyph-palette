@@ -22,12 +22,19 @@ With this plugin, the following (and potentially more) Nerd Fonts integrations w
 [vim-fern-renderer-nerdfont]: https://github.com/lambdalisue/vim-fern-renderer-nerdfont
 [fall.vim]: https://github.com/vim-fall/fall.vim
 
-## Usage
+## Installation
 
 First of all, make sure that you are using one of [Nerd Fonts][] patched fonts (e.g. Fonts in [Patched Fonts](https://github.com/ryanoasis/nerd-fonts#patched-fonts) or [Cica][] for Japanese).
 Visit [Nerd Fonts][] homepage for more detail.
 
 [cica]: https://github.com/miiton/Cica
+
+```vim
+Plug 'lambdalisue/vim-glyph-palette'
+```
+
+## Usage
+
 
 After that, call `glyph_palette#apply()` function on a target buffer like:
 
